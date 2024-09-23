@@ -71,26 +71,103 @@ Do they best you can with this, talk with each other and help each other. Most c
     font-style: italic;
   }
 
+/* style */
 
-*{
+
+body {
+  background-color: orange;
+}
+
+div.main {
+  box-sizing: border-box;
+  background-color: lightblue;
+  margin: 20px auto; 
+  max-width: 1000px; 
+}
+
+.nav {
+  text-align: center;
+  box-sizing: border-box;
+  background-color: lightblue;
+  margin: 10px 0px; 
+  max-width: 1000px; 
+}
+
+.nav a{
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #047F8C;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 60px;
+}
+
+.title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 37px;
+  color: #3A400C;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 22.5px;
+  margin: 10px 50px;  
 }
 
 
+
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #047F8C;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 50px;    
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 10px 50px;  
+}
+
   /* image */
-  .small-image {
-    width: 200px;
-    height: 200px;
-  }
+
+img { 
+  text-align: center;
+  width: 90%; 
+  margin: 10px 60px;  
+}
+
+
+.small-image {
+  width: 200px;
+  margin: 30px;
+}
   
 #special {
     size: 100px;
     background-color: rgb(0,255,0);
     border: 3px solid black;
     margin: 5px;
+
 }
 
-.title {
-    text-decoration: none;
+#recent {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3A400C;
+  text-decoration: none;
 }
-
